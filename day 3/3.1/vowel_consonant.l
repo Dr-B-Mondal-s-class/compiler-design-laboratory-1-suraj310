@@ -1,5 +1,5 @@
 %{
-// 
+// lex program to check vowel & consonant
 %}
 
 vowel [aeiouAEIOU]
