@@ -1,17 +1,21 @@
 %{
 	//write a lex code to check input is valid keyword or not
-	#include<stdio.h>;
+	#include<stdio.h>
 %}
 
+keyword auto|break|case|char|const|continue|default|bool|do|double|else|enum|extern|float|for|goto|if|int|long|register|return|short|signed|sizeof|static|struct|switch|typedef|union|unsigned|void|volatile|while] 
+
 %%
-(if|else|while|int|switch|for|char|break|float|case|double|string|sort|continue|do) {printf("keyword");}//key word is found
-.* {printf("invalid");};//if anything other than keyword is found
+{keyword} {printf("Keyword\n");}
+.* {printf("Not a keyword\n");}
 %%
-main(){
+
+main()
+{
 	yylex();
-	
 }
-int yywrap()
+yywrap(void)
 {
 	return 0;
 }
+
