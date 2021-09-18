@@ -8,7 +8,7 @@ FLOAT [0-9]+"."[0-9]+
 %%
 {INT}+ {printf("Integer\n",yytext);}
 {FLOAT} {printf("Float\n",yytext);}
-.+ {printf("invalid input");}
+.+ {printf("Neither integer nor float");}
 %%
 
 int main(){
