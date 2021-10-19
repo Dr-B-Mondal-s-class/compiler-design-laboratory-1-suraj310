@@ -1,0 +1,1 @@
+int b=10;float c = 5.5;i am suraj.
