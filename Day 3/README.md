@@ -4,4 +4,4 @@
 
 3.3 Lex Program to count no of characters in input stream
 
-3.4 Lex Program to count no of vowels, consonants, whitespaces and digits in input stream
+3.4 Lex Program to count no of character,  whitespaces and tab in input stream
