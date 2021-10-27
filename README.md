@@ -21,4 +21,4 @@ This repository contains the lab work done by me in 5th Semester.
 
 
 ## Lab work
-Kindly refer to respective readme files of all days for further detailed info and outputs.
+Kindly refer to respective readme files of all days for further detailed information.
